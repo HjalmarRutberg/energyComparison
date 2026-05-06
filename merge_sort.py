@@ -1,3 +1,4 @@
+"""Merge Sort Implementation in Python"""
 import sys
 
 def load_input(input_txt):
@@ -7,19 +8,21 @@ def load_input(input_txt):
     return data
 
 def merge_sort(input_array, start, end):
-    """MergeSort"""
+    """Recursive merge sort function that divides the input array and 
+    calls the merge function to sort and merge the divided arrays."""
     if start < end:
-        mid = start + (end-start)/2
+        mid = (start + end) // 2
         merge_sort(input_array, start, mid)
         merge_sort(input_array, mid+1, end)
         merge(input_array, start, mid, end)
 
 def merge(input_array, start, mid, end):
-    """The merge part of merge sort"""
+    """Merging function that takes two sorted subarrays and merges them 
+    into a single sorted array."""
     len1 = mid - start + 1
     len2 = end - mid
-    left_arr = []
-    right_arr = []
+    left_arr = [0] * len1
+    right_arr = [0] * len2
 
     for i in range(len1):
         left_arr[i] = input_array[start + i]
@@ -50,7 +53,7 @@ def merge(input_array, start, mid, end):
         k += 1
 
 def is_sorted(input_array):
-    return all(input_array[i] <= input_array[i+1] for i in range(len(input_array)))
+    return all(input_array[i] <= input_array[i+1] for i in range(len(input_array)-1))
 
 if __name__ == "__main__":
     input_string = sys.argv[1]
