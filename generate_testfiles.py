@@ -18,6 +18,6 @@ def generate_test_file(filename, num_elements):
         for _ in range(num_elements):
             f.write(f"{random.randint(0, 1000000)}\n")
 
-generate_test_file('test_inputs_mergesort/test_input_1000.txt', 1000)
-generate_test_file('test_inputs_mergesort/test_input_100000.txt', 100000)
-generate_test_file('test_inputs_mergesort/test_input_10000000.txt', 10000000)
+generate_test_file('test_inputs/test_input_1000.txt', 1000)
+generate_test_file('test_inputs/test_input_100000.txt', 100000)
+generate_test_file('test_inputs/test_input_10000000.txt', 10000000)
