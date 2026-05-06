@@ -26,6 +26,11 @@ int main (char *argv[], int argc) {
 
     // Sort the list using merge sort
     mergeSort(list, 0, listSize - 1);
+    if(is_sorted(list, listSize)) {
+        printf("Sort successful\n");
+    } else {
+        printf("Sort failed\n");
+    }
 
     free(list);
     fclose(fp);
@@ -79,4 +84,13 @@ void merge(int *list, int start, int mid, int end) {
         j++;
         k++;
     }
+}
+
+int is_sorted(int *list, int size) {
+    for (int i = 0; i < size - 1; i++) {
+        if (list[i] > list[i + 1]) {
+            return 0;
+        }
+    }
+    return 1;
 }

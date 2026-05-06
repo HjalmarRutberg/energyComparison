@@ -49,7 +49,14 @@ def merge(input_array, start, mid, end):
         j += 1
         k += 1
 
+def is_sorted(input_array):
+    return all(input_array[i] <= input_array[i+1] for i in range(len(input_array)))
+
 if __name__ == "__main__":
     input_string = sys.argv[1]
     array = load_input(input_string)   
     merge_sort(array, 0, len(array)-1)
+    if is_sorted(input_array=array):
+        print("Sort successful")
+    else:
+        print("Sort failed")
