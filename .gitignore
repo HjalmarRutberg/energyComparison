@@ -1,0 +1,3 @@
+# Ignore compiled .c files
+*.o
+*.so
