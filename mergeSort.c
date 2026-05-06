@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (char *argv[], int argc) {
+void mergeSort(int *list, int start, int end);
+void merge(int *list, int start, int mid, int end);
+int is_sorted(int *list, int size);
+
+int main (int argc, char *argv[]) {
 
     FILE *fp = fopen(argv[1], "r");
     if (fp == NULL) { 
@@ -23,7 +27,6 @@ int main (char *argv[], int argc) {
     for (int i = 0; i < listSize; i++) {
         fscanf(fp, "%d", &list[i]);
     }
-
     // Sort the list using merge sort
     mergeSort(list, 0, listSize - 1);
     if(is_sorted(list, listSize)) {
@@ -50,7 +53,8 @@ void merge(int *list, int start, int mid, int end) {
 
     int len1 = mid - start + 1;
     int len2 = end - mid;
-    int leftArr[len1], rightArr[len2];
+    int *leftArr = malloc(len1 * sizeof(int));
+    int *rightArr = malloc(len2 * sizeof(int));
 
     for (int i = 0; i < len1; i++) {
         leftArr[i] = list[start + i];
@@ -59,7 +63,7 @@ void merge(int *list, int start, int mid, int end) {
         rightArr[j] = list[mid + 1 + j];
     }
 
-    int i, j = 0;
+    int i = 0, j = 0;
     int k = start;
 
     while (i < len1 && j < len2) {
