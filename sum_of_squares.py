@@ -16,6 +16,7 @@ if __name__ == "__main__":
     input_string = sys.argv[1]
     n_loops = int(sys.argv[2])
     array = load_input(input_string)
+    result = None
     for _ in range(n_loops):
         result = sum_of_squares(array)
-        print(result)
+    print(result)

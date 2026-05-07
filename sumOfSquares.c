@@ -33,7 +33,9 @@ int main(int argc, char *argv[]) {
         // Calculate sum of squares
         long long *result = malloc(sizeof(long long));
         sumOfSquares(list, listSize, result);
-        printf("Sum of squares: %lld\n", *result);
+        if (i == n_loops - 1) { 
+            printf("Sum of squares: %lld\n", *result);
+        }
         free(result);
     }
 
