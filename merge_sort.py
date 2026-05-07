@@ -58,11 +58,10 @@ def is_sorted(input_array):
 if __name__ == "__main__":
     input_string = sys.argv[1]
     n_loops = int(sys.argv[2])
-    array = load_input(input_string)
-    unsorted_array = array.copy()
+    unsorted_array = load_input(input_string)
     for _ in range(n_loops):
-        merge_sort(array, 0, len(array)-1)
         array = unsorted_array.copy()
+        merge_sort(array, 0, len(array)-1)
     if is_sorted(input_array=array):
         print("Sort successful")
     else:
