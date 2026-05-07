@@ -28,13 +28,16 @@ int main(int argc, char *argv[]) {
         fscanf(fp, "%d", &list[i]);
     }
 
-    // Calculate sum of squares
-    long long *result = malloc(sizeof(long long));
-    sumOfSquares(list, listSize, result);
-    printf("Sum of squares: %lld\n", *result);
+    int n_loops = atoi(argv[2]);
+    for (int i = 0; i < n_loops; i++) {
+        // Calculate sum of squares
+        long long *result = malloc(sizeof(long long));
+        sumOfSquares(list, listSize, result);
+        printf("Sum of squares: %lld\n", *result);
+        free(result);
+    }
 
     free(list);
-    free(result);
     fclose(fp);
     return 0;
 }
