@@ -1,6 +1,7 @@
 // Mergesort in C
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void mergeSort(int *list, int start, int end);
 void merge(int *list, int start, int mid, int end);
@@ -23,12 +24,18 @@ int main (int argc, char *argv[]) {
 
     // Rewind filepointer and then read all numbers into an array
     rewind(fp);
+    int *unsorted_list = (int *)malloc(listSize * sizeof(int));
     int *list = (int *)malloc(listSize * sizeof(int));
     for (int i = 0; i < listSize; i++) {
-        fscanf(fp, "%d", &list[i]);
+        fscanf(fp, "%d", &unsorted_list[i]);
     }
-    // Sort the list using merge sort
-    mergeSort(list, 0, listSize - 1);
+    int n_loops = atoi(argv[2]);
+
+    // Sort the list using merge sort (multiple times if n_loops > 1)
+    for (int i = 0; i < n_loops; i++) {
+        memcpy(list, unsorted_list, listSize * sizeof(int));
+        mergeSort(list, 0, listSize - 1);
+    }
     if(is_sorted(list, listSize)) {
         printf("Sort successful\n");
     } else {
@@ -36,6 +43,7 @@ int main (int argc, char *argv[]) {
     }
 
     free(list);
+    free(unsorted_list);
     fclose(fp);
     return 0;
 }
