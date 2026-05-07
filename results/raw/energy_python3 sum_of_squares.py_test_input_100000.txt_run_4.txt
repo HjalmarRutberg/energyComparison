@@ -1,0 +1,815 @@
+Machine model: Mac14,7
+OS version: 25D2128
+Boot arguments: 
+Boot time: Thu May  7 08:21:14 2026
+
+
+
+*** Sampled system activity (Thu May  7 11:56:44 2026 +0200) (314.18ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+powermetrics                       81155  67.55     7.50   0.00    0.00               3.14    0.00              
+WindowServer                       421    135.61    65.19  12.56   0.00               194.64  21.98             
+kernel_task                        0      34.32     0.00   18.84   3.14               373.58  153.83            
+logd                               347    3.83      81.92  0.00    0.00               0.00    0.00              
+imagent                            791    4.11      78.42  0.00    0.00               3.14    0.00              
+corebrightnessd                    416    3.27      54.50  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.88      46.84  0.00    0.00               40.81   0.00              
+launchd                            1      1.15      38.92  0.00    0.00               0.00    0.00              
+audioclocksyncd                    528    1.04      56.20  0.00    0.00               0.00    0.00              
+TouchBarServer                     512    1.04      72.31  0.00    0.00               0.00    0.00              
+nearbyd                            745    0.79      33.57  0.00    0.00               3.14    0.00              
+airportd                           457    0.60      27.21  0.00    0.00               3.14    0.00              
+nsurlsessiond                      444    0.65      26.74  0.00    0.00               3.14    0.00              
+PerfPowerServices                  405    0.56      61.80  0.00    0.00               0.00    0.00              
+duetexpertd                        787    0.45      60.83  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.45      57.90  0.00    0.00               3.14    0.00              
+cfprefsd                           423    0.30      34.21  0.00    0.00               3.14    0.00              
+dasd                               400    0.31      33.05  0.00    0.00               3.14    0.00              
+NotificationCenter                 777    0.25      27.26  0.00    0.00               3.14    0.00              
+ALL_TASKS                          -2     261.73    41.07  31.83   3.18               646.12  178.24            
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 921 MHz
+E-Cluster HW active residency:  55.87% (600 MHz: 3.7% 912 MHz:  51% 1284 MHz:   0% 1752 MHz: .33% 2004 MHz: .34% 2256 MHz: .34% 2424 MHz: .34%)
+E-Cluster idle residency:  44.13%
+CPU 0 frequency: 1124 MHz
+CPU 0 active residency:   8.97% (600 MHz: .28% 912 MHz: 6.9% 1284 MHz:   0% 1752 MHz: .60% 2004 MHz: .61% 2256 MHz: .61% 2424 MHz: .00%)
+CPU 0 idle residency:  91.03%
+CPU 1 frequency: 911 MHz
+CPU 1 active residency:  13.73% (600 MHz: .48% 912 MHz:  13% 1284 MHz:   0% 1752 MHz: .04% 2004 MHz: .02% 2256 MHz: .02% 2424 MHz: .03%)
+CPU 1 idle residency:  86.27%
+CPU 2 frequency: 896 MHz
+CPU 2 active residency:   2.88% (600 MHz: .18% 912 MHz: 2.7% 1284 MHz:   0% 1752 MHz: .01% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 2 idle residency:  97.12%
+CPU 3 frequency: 915 MHz
+CPU 3 active residency:   1.11% (600 MHz: .04% 912 MHz: 1.1% 1284 MHz:   0% 1752 MHz: .02% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 3 idle residency:  98.89%
+
+P-Cluster HW active frequency: 682 MHz
+P-Cluster HW active residency:  50.66% (660 MHz:  49% 924 MHz:   0% 1188 MHz: .90% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .50% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  49.34%
+CPU 4 frequency: 1378 MHz
+CPU 4 active residency:   2.65% (660 MHz: .04% 924 MHz:   0% 1188 MHz: 1.9% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .67% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  97.35%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 48 mW
+GPU Power: 10 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 57 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:44 2026 +0200) (324.15ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+mdworker_shared                    81158  636.24    77.68  0.00    0.00               0.00    0.00              
+powermetrics                       81155  62.79     10.62  0.00    0.00               3.10    0.00              
+WindowServer                       421    165.99    69.69  12.40   0.00               192.20  9.30              
+DEAD_TASKS                         -1     51.27     56.43  0.00    0.00               0.00    0.00              
+kernel_task                        0      39.31     0.00   136.40  0.00               477.39  68.20             
+launchd                            1      21.27     31.34  0.00    0.00               0.00    0.00              
+cfprefsd                           624    7.51      62.11  0.00    0.00               0.00    0.00              
+cfprefsd                           423    6.87      60.98  0.00    0.00               0.00    0.00              
+mds                                376    13.63     57.64  0.00    0.00               3.10    0.00              
+opendirectoryd                     388    12.30     43.72  0.00    0.00               0.00    0.00              
+notifyd                            414    7.12      65.28  0.00    0.00               0.00    0.00              
+logd                               347    7.59      52.44  0.00    0.00               0.00    0.00              
+diskarbitrationd                   379    1.33      65.64  0.00    0.00               0.00    0.00              
+Terminal                           719    0.60      25.51  0.00    0.00               3.10    0.00              
+lsd                                652    2.95      58.22  0.00    0.00               0.00    0.00              
+analyticsd                         435    2.77      64.05  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.60      47.83  0.00    0.00               31.00   0.00              
+corebrightnessd                    416    1.70      59.23  0.00    0.00               0.00    0.00              
+contextstored                      386    1.77      66.43  0.00    0.00               0.00    0.00              
+airportd                           457    1.01      63.74  0.00    0.00               6.20    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.95      63.44  0.00    0.00               3.10    0.00              
+audioclocksyncd                    528    0.80      59.77  0.00    0.00               0.00    0.00              
+lockoutagent                       705    0.76      39.17  0.00    0.00               3.10    0.00              
+heard                              1790   0.74      63.17  0.00    0.00               3.10    0.00              
+TouchBarServer                     512    0.61      67.42  0.00    0.00               0.00    0.00              
+WallpaperAerialsExtension          761    0.42      29.51  0.00    0.00               3.10    0.00              
+locationd                          396    0.34      42.50  0.00    0.00               3.10    0.00              
+PerfPowerServices                  405    0.31      64.93  0.00    0.00               0.00    0.00              
+com.apple.dock.extra               797    0.24      20.19  0.00    0.00               3.10    0.00              
+duetexpertd                        787    0.28      59.42  0.00    0.00               0.00    0.00              
+loginwindow                        424    0.25      32.57  0.00    0.00               3.10    0.00              
+appleh13camerad                    538    0.25      30.46  0.00    0.00               3.10    0.00              
+remindd                            56197  0.25      49.92  0.00    0.00               3.10    0.00              
+com.apple.audio.Core-Audio-Drive   493    0.11      42.42  0.00    0.00               3.10    0.00              
+ALL_TASKS                          -2     757.67    61.54  148.08  0.00               743.49  77.13             
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1141 MHz
+E-Cluster HW active residency:  67.93% (600 MHz: 3.0% 912 MHz:  51% 1284 MHz: 1.9% 1752 MHz: 2.1% 2004 MHz: 2.1% 2256 MHz: 1.3% 2424 MHz: 6.6%)
+E-Cluster idle residency:  32.07%
+CPU 0 frequency: 1312 MHz
+CPU 0 active residency:  23.49% (600 MHz: .16% 912 MHz:  14% 1284 MHz: 1.8% 1752 MHz: 1.9% 2004 MHz: 2.5% 2256 MHz: .92% 2424 MHz: 2.2%)
+CPU 0 idle residency:  76.51%
+CPU 1 frequency: 1530 MHz
+CPU 1 active residency:  24.74% (600 MHz: .42% 912 MHz:  13% 1284 MHz: .29% 1752 MHz: .15% 2004 MHz: 2.0% 2256 MHz: .55% 2424 MHz: 8.1%)
+CPU 1 idle residency:  75.26%
+CPU 2 frequency: 1233 MHz
+CPU 2 active residency:   8.21% (600 MHz: .09% 912 MHz: 5.8% 1284 MHz: .58% 1752 MHz:   0% 2004 MHz: .47% 2256 MHz: .41% 2424 MHz: .92%)
+CPU 2 idle residency:  91.79%
+CPU 3 frequency: 1137 MHz
+CPU 3 active residency:  13.69% (600 MHz: .02% 912 MHz:  10% 1284 MHz: .82% 1752 MHz: 1.2% 2004 MHz: .44% 2256 MHz: .84% 2424 MHz: .11%)
+CPU 3 idle residency:  86.31%
+
+P-Cluster HW active frequency: 696 MHz
+P-Cluster HW active residency:  50.91% (660 MHz:  48% 924 MHz:   0% 1188 MHz: 2.6% 1452 MHz: .61% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  49.09%
+CPU 4 frequency: 1269 MHz
+CPU 4 active residency:   3.57% (660 MHz: .03% 924 MHz:   0% 1188 MHz: 2.4% 1452 MHz: 1.2% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  96.43%
+CPU 5 frequency: 1188 MHz
+CPU 5 active residency:   0.01% (660 MHz:   0% 924 MHz:   0% 1188 MHz: .01% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:  99.99%
+CPU 6 frequency: 1188 MHz
+CPU 6 active residency:   0.03% (660 MHz:   0% 924 MHz:   0% 1188 MHz: .03% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency:  99.97%
+CPU 7 frequency: 1188 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz: .00% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 151 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 160 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:44 2026 +0200) (320.47ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+powermetrics                       81155  50.47     11.43  0.00    0.00               3.12    0.00              
+WindowServer                       421    138.91    65.80  9.35    0.00               196.31  18.70             
+kernel_task                        0      35.04     0.00   31.16   0.00               386.38  155.80            
+corebrightnessd                    416    3.35      54.58  0.00    0.00               0.00    0.00              
+gamecontrollerd                    633    0.39      45.31  0.00    0.00               3.12    0.00              
+mysqld                             2547   1.50      45.04  0.00    0.00               31.16   0.00              
+audioanalyticsd                    836    1.13      32.04  0.00    0.00               3.12    0.00              
+audioclocksyncd                    528    1.09      56.47  0.00    0.00               0.00    0.00              
+TouchBarServer                     512    1.03      70.50  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.96      47.76  0.00    0.00               3.12    0.00              
+fileproviderd                      753    1.02      62.69  0.00    0.00               6.23    3.12              
+mds_stores                         614    0.81      20.53  0.00    0.00               3.12    0.00              
+thermalmonitord                    385    0.68      49.12  0.00    0.00               3.12    3.12              
+PerfPowerServices                  405    0.60      60.40  0.00    0.00               0.00    0.00              
+duetexpertd                        787    0.51      66.84  0.00    0.00               0.00    0.00              
+logd                               347    0.41      40.23  0.00    0.00               0.00    0.00              
+locationd                          396    0.22      78.70  0.00    0.00               0.00    0.00              
+mDNSResponderHelper                483    0.13      54.41  0.00    0.00               3.12    0.00              
+ALL_TASKS                          -2     238.58    43.77  40.57   0.00               642.81  180.99            
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 903 MHz
+E-Cluster HW active residency:  55.24% (600 MHz: 2.5% 912 MHz:  53% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .19%)
+E-Cluster idle residency:  44.76%
+CPU 0 frequency: 904 MHz
+CPU 0 active residency:   4.79% (600 MHz: .30% 912 MHz: 4.5% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .04%)
+CPU 0 idle residency:  95.21%
+CPU 1 frequency: 922 MHz
+CPU 1 active residency:  15.81% (600 MHz: .60% 912 MHz:  15% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .23%)
+CPU 1 idle residency:  84.19%
+CPU 2 frequency: 911 MHz
+CPU 2 active residency:   2.50% (600 MHz: .11% 912 MHz: 2.4% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .02%)
+CPU 2 idle residency:  97.50%
+CPU 3 frequency: 910 MHz
+CPU 3 active residency:   1.38% (600 MHz: .04% 912 MHz: 1.3% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .01%)
+CPU 3 idle residency:  98.62%
+
+P-Cluster HW active frequency: 688 MHz
+P-Cluster HW active residency:  50.88% (660 MHz:  49% 924 MHz:   0% 1188 MHz: .30% 1452 MHz: 1.6% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  49.12%
+CPU 4 frequency: 1399 MHz
+CPU 4 active residency:   3.43% (660 MHz: .03% 924 MHz:   0% 1188 MHz: .60% 1452 MHz: 2.8% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  96.57%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 47 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 56 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:45 2026 +0200) (316.76ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+powermetrics                       81155  49.61     11.87  0.00    0.00               3.16    0.00              
+WindowServer                       421    141.61    64.36  15.82   0.00               192.96  6.33              
+kernel_task                        0      36.10     0.00   25.31   0.00               427.03  158.16            
+com.apple.DriverKit-AppleBCMWLAN   594    13.68     55.23  0.00    0.00               34.80   6.33              
+airportd                           457    1.91      47.52  0.00    0.00               3.16    0.00              
+corebrightnessd                    416    1.80      57.05  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.61      44.87  0.00    0.00               41.12   0.00              
+audioclocksyncd                    528    0.66      48.88  0.00    0.00               0.00    0.00              
+logd                               347    0.64      35.52  0.00    0.00               0.00    0.00              
+sharingd                           704    0.53      70.33  0.00    0.00               0.00    0.00              
+locationd                          396    0.56      57.57  0.00    0.00               3.16    0.00              
+wifip2pd                           676    0.42      43.01  0.00    0.00               0.00    0.00              
+TouchBarServer                     512    0.56      71.60  0.00    0.00               0.00    0.00              
+PerfPowerServices                  405    0.33      61.60  0.00    0.00               0.00    0.00              
+DockHelper                         4050   0.26      21.99  0.00    0.00               3.16    0.00              
+duetexpertd                        787    0.24      61.11  0.00    0.00               0.00    0.00              
+VTDecoderXPCService                806    0.18      25.80  0.00    0.00               3.16    0.00              
+fseventsd                          351    0.21      71.93  0.00    0.00               3.16    0.00              
+postgres                           2415   0.09      42.38  0.00    0.00               3.16    0.00              
+ALL_TASKS                          -2     250.49    43.71  41.04   0.00               716.62  170.47            
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 904 MHz
+E-Cluster HW active residency:  54.72% (600 MHz: 2.0% 912 MHz:  53% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .15%)
+E-Cluster idle residency:  45.28%
+CPU 0 frequency: 900 MHz
+CPU 0 active residency:   6.18% (600 MHz: .33% 912 MHz: 5.8% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .02%)
+CPU 0 idle residency:  93.82%
+CPU 1 frequency: 905 MHz
+CPU 1 active residency:  11.91% (600 MHz: .49% 912 MHz:  11% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .04%)
+CPU 1 idle residency:  88.09%
+CPU 2 frequency: 897 MHz
+CPU 2 active residency:   3.31% (600 MHz: .18% 912 MHz: 3.1% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .00%)
+CPU 2 idle residency:  96.69%
+CPU 3 frequency: 913 MHz
+CPU 3 active residency:   1.90% (600 MHz: .07% 912 MHz: 1.8% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .02%)
+CPU 3 idle residency:  98.10%
+
+P-Cluster HW active frequency: 688 MHz
+P-Cluster HW active residency:  50.92% (660 MHz:  49% 924 MHz:   0% 1188 MHz: .92% 1452 MHz: .78% 1704 MHz: .33% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  49.08%
+CPU 4 frequency: 1333 MHz
+CPU 4 active residency:   3.64% (660 MHz: .02% 924 MHz:   0% 1188 MHz: 1.8% 1452 MHz: 1.5% 1704 MHz: .26% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  96.36%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 51 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 60 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:45 2026 +0200) (316.79ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+powermetrics                       81155  48.57     11.86  0.00    0.00               3.15    0.00              
+WindowServer                       421    145.17    65.57  3.15    0.00               189.16  6.31              
+kernel_task                        0      36.84     0.00   28.37   6.31               394.07  148.17            
+airportd                           457    21.73     67.98  0.00    0.00               3.15    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    20.11     49.74  0.00    0.00               88.27   50.44             
+symptomsd                          466    4.22      75.13  0.00    0.00               0.00    0.00              
+corebrightnessd                    416    3.38      55.57  0.00    0.00               0.00    0.00              
+locationd                          396    1.75      70.41  0.00    0.00               0.00    0.00              
+WallpaperAerialsExtension          761    1.29      30.35  0.00    0.00               6.31    0.00              
+audioclocksyncd                    528    1.10      51.19  0.00    0.00               0.00    0.00              
+TouchBarServer                     512    1.08      69.24  0.00    0.00               0.00    0.00              
+logd                               347    0.96      35.56  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.17      42.93  0.00    0.00               25.22   0.00              
+lockoutagent                       705    0.77      39.96  0.00    0.00               3.15    0.00              
+PerfPowerServices                  405    0.61      62.11  0.00    0.00               0.00    0.00              
+duetexpertd                        787    0.48      59.02  0.00    0.00               0.00    0.00              
+wifip2pd                           676    0.33      42.37  0.00    0.00               0.00    0.00              
+sharingd                           704    0.30      64.77  0.00    0.00               0.00    0.00              
+appleh13camerad                    538    0.26      25.09  0.00    0.00               3.15    0.00              
+Terminal                           719    0.09      24.01  0.00    0.00               3.15    0.00              
+com.apple.audio.Core-Audio-Drive   493    0.11      40.07  0.00    0.00               3.15    0.00              
+ALL_TASKS                          -2     290.69    46.84  31.57   6.31               722.87  205.18            
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 896 MHz
+E-Cluster HW active residency:  55.87% (600 MHz: 5.6% 912 MHz:  49% 1284 MHz:   0% 1752 MHz: .67% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .19%)
+E-Cluster idle residency:  44.13%
+CPU 0 frequency: 923 MHz
+CPU 0 active residency:  16.00% (600 MHz: .60% 912 MHz:  15% 1284 MHz:   0% 1752 MHz: .02% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .22%)
+CPU 0 idle residency:  84.00%
+CPU 1 frequency: 892 MHz
+CPU 1 active residency:   4.24% (600 MHz: .30% 912 MHz: 3.9% 1284 MHz:   0% 1752 MHz: .00% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .00%)
+CPU 1 idle residency:  95.76%
+CPU 2 frequency: 908 MHz
+CPU 2 active residency:   3.14% (600 MHz: .12% 912 MHz: 3.0% 1284 MHz:   0% 1752 MHz: .00% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .01%)
+CPU 2 idle residency:  96.86%
+CPU 3 frequency: 903 MHz
+CPU 3 active residency:   6.21% (600 MHz: .21% 912 MHz: 6.0% 1284 MHz:   0% 1752 MHz: .01% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 3 idle residency:  93.79%
+
+P-Cluster HW active frequency: 684 MHz
+P-Cluster HW active residency:  50.85% (660 MHz:  49% 924 MHz:   0% 1188 MHz: .63% 1452 MHz: 1.1% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  49.15%
+CPU 4 frequency: 1348 MHz
+CPU 4 active residency:   3.33% (660 MHz: .02% 924 MHz:   0% 1188 MHz: 1.2% 1452 MHz: 2.1% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  96.67%
+CPU 5 frequency: 0 MHz
+CPU 5 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency: 100.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 51 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 60 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:45 2026 +0200) (316.33ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+DEAD_TASKS                         -1     817.97    33.44  72.71   0.00               107.48  0.00              
+python3.10                         81159  295.98    54.94  0.00    0.00               46.70   0.00              
+Terminal                           719    19.94     80.56  0.00    0.00               6.40    0.00              
+WindowServer                       421    159.63    67.16  28.81   0.00               211.26  3.20              
+powermetrics                       81155  32.51     14.50  0.00    0.00               3.20    0.00              
+kernel_task                        0      115.28    0.00   268.88  0.00               675.39  83.22             
+mds_stores                         614    15.58     92.36  0.00    0.00               0.00    0.00              
+WindowManager                      689    10.07     91.40  0.00    0.00               0.00    0.00              
+notifyd                            414    0.89      53.00  0.00    0.00               0.00    0.00              
+launchd                            1      0.82      65.74  0.00    0.00               0.00    0.00              
+mds                                376    1.98      45.51  0.00    0.00               0.00    0.00              
+opendirectoryd                     388    2.14      36.58  0.00    0.00               0.00    0.00              
+mdworker_shared                    80774  1.38      51.84  0.00    0.00               3.20    0.00              
+bash                               81018  4.48      21.82  3.20    0.00               3.20    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    2.37      52.06  0.00    0.00               12.80   0.00              
+corebrightnessd                    416    1.83      53.38  0.00    0.00               0.00    0.00              
+logd                               347    1.46      27.48  0.00    0.00               0.00    0.00              
+nsurlsessiond                      671    1.25      28.28  0.00    0.00               3.20    0.00              
+mysqld                             2547   1.83      48.19  0.00    0.00               38.41   0.00              
+TouchBarServer                     512    0.66      63.79  0.00    0.00               0.00    0.00              
+fileproviderd                      753    1.11      64.18  0.00    0.00               6.40    0.00              
+heard                              1790   0.87      60.39  0.00    0.00               3.20    0.00              
+audioclocksyncd                    528    0.75      56.88  0.00    0.00               0.00    0.00              
+jetpackassetd                      69576  0.61      35.08  0.00    0.00               3.20    0.00              
+callservicesd                      712    0.52      29.37  0.00    0.00               3.20    0.00              
+PerfPowerServices                  405    0.31      60.17  0.00    0.00               0.00    0.00              
+iconservicesagent                  744    0.23      27.97  0.00    0.00               3.20    0.00              
+duetexpertd                        787    0.25      62.47  0.00    0.00               0.00    0.00              
+mDNSResponderHelper                483    0.13      45.49  0.00    0.00               3.20    0.00              
+ALL_TASKS                          -2     1332.42   38.38  369.86  0.00               1096.95 85.35             
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 932 MHz
+E-Cluster HW active residency:  58.50% (600 MHz: 7.2% 912 MHz:  47% 1284 MHz: 2.1% 1752 MHz: .58% 2004 MHz: .37% 2256 MHz: .38% 2424 MHz: .84%)
+E-Cluster idle residency:  41.50%
+CPU 0 frequency: 1065 MHz
+CPU 0 active residency:  18.28% (600 MHz: .90% 912 MHz:  14% 1284 MHz: 1.4% 1752 MHz: .34% 2004 MHz: .63% 2256 MHz: .56% 2424 MHz: .54%)
+CPU 0 idle residency:  81.72%
+CPU 1 frequency: 1090 MHz
+CPU 1 active residency:  10.55% (600 MHz: .66% 912 MHz: 7.8% 1284 MHz: .67% 1752 MHz: .20% 2004 MHz: .43% 2256 MHz: .43% 2424 MHz: .41%)
+CPU 1 idle residency:  89.45%
+CPU 2 frequency: 1112 MHz
+CPU 2 active residency:   6.86% (600 MHz: .22% 912 MHz: 5.1% 1284 MHz: .52% 1752 MHz: .36% 2004 MHz: .02% 2256 MHz: .22% 2424 MHz: .41%)
+CPU 2 idle residency:  93.14%
+CPU 3 frequency: 1031 MHz
+CPU 3 active residency:   3.08% (600 MHz: .14% 912 MHz: 2.5% 1284 MHz: .17% 1752 MHz: .06% 2004 MHz: .03% 2256 MHz: .09% 2424 MHz: .09%)
+CPU 3 idle residency:  96.92%
+
+P-Cluster HW active frequency: 1258 MHz
+P-Cluster HW active residency:  65.96% (660 MHz:  34% 924 MHz: .40% 1188 MHz: 1.3% 1452 MHz: 1.8% 1704 MHz: 2.1% 1968 MHz:  27% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  34.04%
+CPU 4 frequency: 1891 MHz
+CPU 4 active residency:  26.85% (660 MHz: .02% 924 MHz: .61% 1188 MHz: .21% 1452 MHz: 1.6% 1704 MHz: 1.7% 1968 MHz:  23% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  73.15%
+CPU 5 frequency: 1874 MHz
+CPU 5 active residency:  24.96% (660 MHz: .02% 924 MHz: .12% 1188 MHz: 1.7% 1452 MHz: 1.0% 1704 MHz: 1.4% 1968 MHz:  21% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:  75.04%
+CPU 6 frequency: 1968 MHz
+CPU 6 active residency:   4.10% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 4.1% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency:  95.90%
+CPU 7 frequency: 1968 MHz
+CPU 7 active residency:   0.06% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .06% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency:  99.94%
+
+CPU Power: 629 mW
+GPU Power: 9 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 639 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:46 2026 +0200) (310.75ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+python3.10                         81159  981.52    99.23  0.00    0.00               0.00    0.00              
+powermetrics                       81155  32.93     13.20  0.00    0.00               3.21    0.00              
+Terminal                           719    19.03     83.38  0.00    0.00               12.86   0.00              
+WindowServer                       421    143.17    67.55  28.93   0.00               208.96  0.00              
+spotlightknowledged                2836   7.71      19.76  0.00    0.00               0.00    0.00              
+kernel_task                        0      41.39     0.00   527.23  0.00               999.80  0.00              
+WindowManager                      689    6.87      86.60  0.00    0.00               0.00    0.00              
+corespotlightd                     659    5.32      54.61  0.00    0.00               0.00    0.00              
+distnoted                          622    4.14      94.01  0.00    0.00               0.00    0.00              
+distnoted                          403    3.64      57.95  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    6.55      53.45  0.00    0.00               28.93   0.00              
+airportd                           457    3.34      47.49  0.00    0.00               3.21    0.00              
+corebrightnessd                    416    2.91      54.47  0.00    0.00               0.00    0.00              
+bluetoothd                         413    1.91      51.46  0.00    0.00               3.21    0.00              
+TouchBarServer                     512    1.15      62.12  0.00    0.00               0.00    0.00              
+WirelessRadioManagerd              491    1.72      59.12  0.00    0.00               0.00    0.00              
+sudo                               81152  0.12      18.83  0.00    0.00               0.00    0.00              
+distnoted                          695    0.22      29.94  0.00    0.00               0.00    0.00              
+distnoted                          2835   0.21      29.67  0.00    0.00               0.00    0.00              
+distnoted                          2831   0.20      31.72  0.00    0.00               0.00    0.00              
+distnoted                          894    0.20      31.97  0.00    0.00               0.00    0.00              
+distnoted                          608    0.33      27.95  0.00    0.00               0.00    0.00              
+distnoted                          1727   0.19      32.71  0.00    0.00               0.00    0.00              
+distnoted                          2854   0.19      31.53  0.00    0.00               0.00    0.00              
+distnoted                          2082   0.19      32.34  0.00    0.00               0.00    0.00              
+distnoted                          1629   0.33      30.17  0.00    0.00               0.00    0.00              
+audioclocksyncd                    528    1.09      44.67  0.00    0.00               0.00    0.00              
+distnoted                          675    0.32      29.65  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.20      43.59  0.00    0.00               35.36   0.00              
+logd                               347    0.59      31.46  0.00    0.00               0.00    0.00              
+distnoted                          3695   0.29      32.30  0.00    0.00               0.00    0.00              
+distnoted                          459    0.52      27.15  0.00    0.00               0.00    0.00              
+distnoted                          452    0.51      28.55  0.00    0.00               0.00    0.00              
+distnoted                          463    0.50      34.24  0.00    0.00               0.00    0.00              
+distnoted                          554    0.46      26.94  0.00    0.00               0.00    0.00              
+distnoted                          576    0.43      28.56  0.00    0.00               0.00    0.00              
+distnoted                          521    0.42      27.63  0.00    0.00               0.00    0.00              
+PerfPowerServices                  405    0.51      59.11  0.00    0.00               0.00    0.00              
+thermalmonitord                    385    0.45      48.63  0.00    0.00               3.21    0.00              
+duetexpertd                        787    0.45      60.94  0.00    0.00               0.00    0.00              
+wifip2pd                           676    0.25      30.10  0.00    0.00               0.00    0.00              
+sharingd                           704    0.24      71.24  0.00    0.00               0.00    0.00              
+locationd                          396    0.13      72.97  0.00    0.00               0.00    0.00              
+ALL_TASKS                          -2     1275.12   87.98  556.72  0.00               1300.07 0.00              
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 798 MHz
+E-Cluster HW active residency:  55.95% (600 MHz:  29% 912 MHz:  24% 1284 MHz: 1.3% 1752 MHz: .37% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: 1.2%)
+E-Cluster idle residency:  44.05%
+CPU 0 frequency: 978 MHz
+CPU 0 active residency:  11.56% (600 MHz: .81% 912 MHz: 9.7% 1284 MHz: .35% 1752 MHz: .25% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .45%)
+CPU 0 idle residency:  88.44%
+CPU 1 frequency: 1188 MHz
+CPU 1 active residency:   6.34% (600 MHz: .45% 912 MHz: 3.8% 1284 MHz: 1.1% 1752 MHz: .08% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .93%)
+CPU 1 idle residency:  93.66%
+CPU 2 frequency: 946 MHz
+CPU 2 active residency:   7.66% (600 MHz: 2.1% 912 MHz: 4.7% 1284 MHz: .28% 1752 MHz: .06% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .51%)
+CPU 2 idle residency:  92.34%
+CPU 3 frequency: 1107 MHz
+CPU 3 active residency:   4.00% (600 MHz: .22% 912 MHz: 3.1% 1284 MHz: .13% 1752 MHz: .05% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .50%)
+CPU 3 idle residency:  96.00%
+
+P-Cluster HW active frequency: 1968 MHz
+P-Cluster HW active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:   0.00%
+CPU 4 frequency: 1968 MHz
+CPU 4 active residency:   4.73% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 4.7% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  95.27%
+CPU 5 frequency: 1968 MHz
+CPU 5 active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:   0.00%
+CPU 6 frequency: 1968 MHz
+CPU 6 active residency:   0.40% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .40% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency:  99.60%
+CPU 7 frequency: 1968 MHz
+CPU 7 active residency:   0.01% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .01% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency:  99.99%
+
+CPU Power: 1741 mW
+GPU Power: 10 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 1751 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:46 2026 +0200) (310.96ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+python3.10                         81159  1013.36   99.65  0.00    0.00               0.00    0.00              
+powermetrics                       81155  29.98     14.60  0.00    0.00               3.22    0.00              
+WindowServer                       421    130.88    67.75  32.21   0.00               231.93  0.00              
+kernel_task                        0      38.62     0.00   525.06  0.00               937.38  0.00              
+Terminal                           719    0.89      54.26  0.00    0.00               9.66    0.00              
+corebrightnessd                    416    1.42      52.95  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.51      41.02  0.00    0.00               41.88   0.00              
+TouchBarServer                     512    0.85      51.44  0.00    0.00               3.22    0.00              
+nearbyd                            745    0.88      32.94  0.00    0.00               3.22    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.88      61.42  0.00    0.00               3.22    0.00              
+audioclocksyncd                    528    0.73      43.31  0.00    0.00               0.00    0.00              
+lockoutagent                       705    0.59      40.09  0.00    0.00               3.22    0.00              
+universalaccessd                   640    0.56      52.30  0.00    0.00               3.22    0.00              
+milod                              837    0.59      43.76  0.00    0.00               3.22    0.00              
+logd                               347    0.35      37.28  0.00    0.00               0.00    0.00              
+PerfPowerServices                  405    0.26      60.27  0.00    0.00               0.00    0.00              
+locationd                          396    0.22      38.51  0.00    0.00               3.22    0.00              
+remindd                            56197  0.23      31.90  0.00    0.00               3.22    0.00              
+appleh13camerad                    538    0.23      26.96  0.00    0.00               3.22    0.00              
+airportd                           457    0.22      65.55  0.00    0.00               3.22    0.00              
+duetexpertd                        787    0.19      57.93  0.00    0.00               0.00    0.00              
+ALL_TASKS                          -2     1221.36   90.55  556.34  0.00               1254.18 0.00              
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 756 MHz
+E-Cluster HW active residency:  55.34% (600 MHz:  30% 912 MHz:  25% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .49%)
+E-Cluster idle residency:  44.66%
+CPU 0 frequency: 890 MHz
+CPU 0 active residency:   9.69% (600 MHz: 1.0% 912 MHz: 8.6% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .07%)
+CPU 0 idle residency:  90.31%
+CPU 1 frequency: 861 MHz
+CPU 1 active residency:   5.42% (600 MHz: 1.0% 912 MHz: 4.4% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .03%)
+CPU 1 idle residency:  94.58%
+CPU 2 frequency: 841 MHz
+CPU 2 active residency:   3.93% (600 MHz: 1.0% 912 MHz: 2.9% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .02%)
+CPU 2 idle residency:  96.07%
+CPU 3 frequency: 885 MHz
+CPU 3 active residency:   5.35% (600 MHz: .74% 912 MHz: 4.6% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .06%)
+CPU 3 idle residency:  94.65%
+
+P-Cluster HW active frequency: 1968 MHz
+P-Cluster HW active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:   0.00%
+CPU 4 frequency: 1968 MHz
+CPU 4 active residency:   3.07% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 3.1% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  96.93%
+CPU 5 frequency: 1968 MHz
+CPU 5 active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:   0.00%
+CPU 6 frequency: 1968 MHz
+CPU 6 active residency:   0.02% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .02% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency:  99.98%
+CPU 7 frequency: 1968 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .00% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 1727 mW
+GPU Power: 10 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 1737 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:46 2026 +0200) (310.24ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+python3.10                         81159  984.73    99.65  0.00    0.00               0.00    0.00              
+powermetrics                       81155  28.51     14.59  0.00    0.00               3.22    0.00              
+WindowServer                       421    136.53    65.27  32.24   0.00               209.55  0.00              
+kernel_task                        0      42.09     0.00   525.49  0.00               986.50  0.00              
+corebrightnessd                    416    3.02      51.68  0.00    0.00               0.00    0.00              
+TouchBarServer                     512    1.14      53.66  0.00    0.00               3.22    0.00              
+mysqld                             2547   1.46      39.99  0.00    0.00               41.91   0.00              
+audioclocksyncd                    528    0.91      49.22  0.00    0.00               0.00    0.00              
+photoanalysisd                     1434   0.91      28.65  0.00    0.00               3.22    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.83      56.66  0.00    0.00               6.45    0.00              
+fileproviderd                      753    0.79      53.14  0.00    0.00               6.45    0.00              
+heard                              1790   0.55      55.24  0.00    0.00               3.22    0.00              
+PerfPowerServices                  405    0.54      52.80  0.00    0.00               0.00    0.00              
+duetexpertd                        787    0.42      55.60  0.00    0.00               0.00    0.00              
+logd                               347    0.35      35.95  0.00    0.00               0.00    0.00              
+ControlCenter                      728    0.24      23.81  0.00    0.00               3.22    0.00              
+replayd                            756    0.19      23.58  0.00    0.00               3.22    0.00              
+fseventsd                          351    0.17      51.83  0.00    0.00               3.22    0.00              
+mDNSResponderHelper                483    0.16      42.74  0.00    0.00               3.22    0.00              
+com.apple.audio.Core-Audio-Drive   493    0.09      23.06  0.00    0.00               3.22    0.00              
+ALL_TASKS                          -2     1203.42   89.74  557.63  0.00               1279.65 0.00              
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 733 MHz
+E-Cluster HW active residency:  55.06% (600 MHz:  32% 912 MHz:  23% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+E-Cluster idle residency:  44.94%
+CPU 0 frequency: 851 MHz
+CPU 0 active residency:   4.25% (600 MHz: .83% 912 MHz: 3.4% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 0 idle residency:  95.75%
+CPU 1 frequency: 880 MHz
+CPU 1 active residency:   4.44% (600 MHz: .45% 912 MHz: 4.0% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 1 idle residency:  95.56%
+CPU 2 frequency: 807 MHz
+CPU 2 active residency:   4.06% (600 MHz: 1.4% 912 MHz: 2.7% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 2 idle residency:  95.94%
+CPU 3 frequency: 872 MHz
+CPU 3 active residency:  10.93% (600 MHz: 1.4% 912 MHz: 9.5% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz:   0%)
+CPU 3 idle residency:  89.07%
+
+P-Cluster HW active frequency: 1968 MHz
+P-Cluster HW active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:   0.00%
+CPU 4 frequency: 1968 MHz
+CPU 4 active residency:   2.93% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 2.9% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  97.07%
+CPU 5 frequency: 1968 MHz
+CPU 5 active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:   0.00%
+CPU 6 frequency: 0 MHz
+CPU 6 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency: 100.00%
+CPU 7 frequency: 0 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:   0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 1724 mW
+GPU Power: 10 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 1734 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:46 2026 +0200) (310.28ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+python3.10                         81159  990.35    99.78  0.00    0.00               0.00    0.00              
+spotlightknowledged                3408   392.81    91.35  0.00    0.00               3.22    0.00              
+powermetrics                       81155  29.48     14.14  0.00    0.00               3.22    0.00              
+WindowServer                       421    136.84    66.88  16.11   0.00               196.54  0.00              
+kernel_task                        0      37.06     0.00   528.41  0.00               898.94  0.00              
+Terminal                           719    0.79      34.85  0.00    0.00               6.44    0.00              
+imagent                            791    3.44      76.00  0.00    0.00               3.22    0.00              
+launchd                            1      1.75      31.32  0.00    0.00               0.00    0.00              
+corebrightnessd                    416    1.34      54.92  0.00    0.00               0.00    0.00              
+mysqld                             2547   1.29      43.42  0.00    0.00               38.66   0.00              
+logd                               347    1.20      26.10  0.00    0.00               0.00    0.00              
+gamecontrolleragentd               2859   1.15      28.94  0.00    0.00               6.44    0.00              
+mdworker_shared                    80771  0.88      72.94  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.74      34.55  0.00    0.00               3.22    0.00              
+TouchBarServer                     512    0.58      59.67  0.00    0.00               0.00    0.00              
+airportd                           457    0.64      21.67  0.00    0.00               3.22    0.00              
+audioclocksyncd                    528    0.63      54.29  0.00    0.00               0.00    0.00              
+thermalmonitord                    385    0.50      46.44  0.00    0.00               3.22    0.00              
+mobiletimerd                       750    0.30      20.11  0.00    0.00               3.22    0.00              
+NotificationCenter                 777    0.24      21.88  0.00    0.00               3.22    0.00              
+PerfPowerServices                  405    0.24      58.92  0.00    0.00               0.00    0.00              
+duetexpertd                        787    0.23      68.11  0.00    0.00               0.00    0.00              
+locationd                          396    0.13      73.39  0.00    0.00               0.00    0.00              
+ALL_TASKS                          -2     1603.04   90.51  544.66  0.00               1173.12 0.00              
+
+
+**** Average cumulatively decayed power score ****
+
+                                      	   15 sec    	   1 min     	   5 min     	   15 min    	   1 hr      
+[81159]python3.10                      	<calculating>
+[-1   ]DEAD_TASKS                      	<calculating>
+[81155]powermetrics                    	<calculating>
+[421  ]WindowServer                    	<calculating>
+[3408 ]spotlightknowledged             	<calculating>
+[719  ]Terminal                        	<calculating>
+[0    ]kernel_task                     	<calculating>
+[689  ]WindowManager                   	<calculating>
+[2836 ]spotlightknowledged             	<calculating>
+[594  ]com.apple.DriverKit-AppleBCMWLAN	<calculating>
+[1    ]launchd                         	<calculating>
+[614  ]mds_stores                      	<calculating>
+[457  ]airportd                        	<calculating>
+[624  ]cfprefsd                        	<calculating>
+[376  ]mds                             	<calculating>
+[414  ]notifyd                         	<calculating>
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 806 MHz
+E-Cluster HW active residency:  66.10% (600 MHz:  24% 912 MHz:  42% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .37%)
+E-Cluster idle residency:  33.90%
+CPU 0 frequency: 903 MHz
+CPU 0 active residency:  29.96% (600 MHz: 1.1% 912 MHz:  29% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .04%)
+CPU 0 idle residency:  70.04%
+CPU 1 frequency: 911 MHz
+CPU 1 active residency:  11.69% (600 MHz: .09% 912 MHz:  12% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .01%)
+CPU 1 idle residency:  88.31%
+CPU 2 frequency: 900 MHz
+CPU 2 active residency:  12.68% (600 MHz: .67% 912 MHz:  12% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .03%)
+CPU 2 idle residency:  87.32%
+CPU 3 frequency: 896 MHz
+CPU 3 active residency:   9.70% (600 MHz: .58% 912 MHz: 9.1% 1284 MHz:   0% 1752 MHz:   0% 2004 MHz:   0% 2256 MHz:   0% 2424 MHz: .02%)
+CPU 3 idle residency:  90.30%
+
+P-Cluster HW active frequency: 1968 MHz
+P-Cluster HW active residency: 100.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 100% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:   0.00%
+CPU 4 frequency: 1968 MHz
+CPU 4 active residency:   3.02% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: 3.0% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  96.98%
+CPU 5 frequency: 1968 MHz
+CPU 5 active residency:  64.37% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:  64% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:  35.63%
+CPU 6 frequency: 1968 MHz
+CPU 6 active residency:  35.66% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz:  36% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency:  64.34%
+CPU 7 frequency: 1968 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .00% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 1760 mW
+GPU Power: 6 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 1766 mW
+
+
+*** Sampled system activity (Thu May  7 11:56:47 2026 +0200) (309.88ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+DEAD_TASKS                         -1     4400.47   98.03  0.00    0.00               22.59   0.00              
+powermetrics                       81155  56.14     10.49  0.00    0.00               3.19    0.00              
+Terminal                           719    26.44     83.42  0.00    0.00               15.93   3.19              
+WindowServer                       421    174.42    66.86  19.12   0.00               216.70  6.37              
+sleep                              81189  8.85      47.09  0.00    0.00               0.00    0.00              
+kernel_task                        0      42.54     0.00   184.83  0.00               611.87  121.10            
+WindowManager                      689    15.87     93.09  0.00    0.00               0.00    0.00              
+spotlightknowledged                2836   13.76     19.87  0.00    0.00               0.00    0.00              
+corespotlightd                     659    8.13      59.70  0.00    0.00               0.00    0.00              
+bash                               81018  1.13      20.37  3.19    0.00               3.19    0.00              
+logd                               347    3.25      56.75  0.00    0.00               0.00    0.00              
+corebrightnessd                    416    3.21      54.73  0.00    0.00               0.00    0.00              
+mysqld                             2547   2.46      46.80  0.00    0.00               57.36   0.00              
+TouchBarServer                     512    1.34      61.79  0.00    0.00               3.19    0.00              
+audioclocksyncd                    528    1.08      53.91  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   594    0.97      65.03  0.00    0.00               3.19    0.00              
+notifyd                            414    0.96      87.63  0.00    0.00               0.00    0.00              
+opendirectoryd                     388    0.88      61.62  0.00    0.00               0.00    0.00              
+lockoutagent                       705    0.74      38.12  0.00    0.00               3.19    0.00              
+PerfPowerServices                  405    0.63      53.73  0.00    0.00               0.00    0.00              
+duetexpertd                        787    0.53      52.92  0.00    0.00               0.00    0.00              
+locationd                          396    0.33      41.79  0.00    0.00               3.19    0.00              
+com.apple.dock.extra               797    0.23      21.87  0.00    0.00               3.19    0.00              
+appleh13camerad                    538    0.25      25.26  0.00    0.00               3.19    0.00              
+airportd                           457    0.22      67.36  0.00    0.00               3.19    0.00              
+ALL_TASKS                          -2     4767.12   94.30  209.76  0.00               964.88  132.31            
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 901 MHz
+E-Cluster HW active residency:  56.78% (600 MHz:  11% 912 MHz:  43% 1284 MHz:   0% 1752 MHz: .35% 2004 MHz: .96% 2256 MHz:   0% 2424 MHz: 1.1%)
+E-Cluster idle residency:  43.22%
+CPU 0 frequency: 1062 MHz
+CPU 0 active residency:  10.20% (600 MHz: .39% 912 MHz: 8.3% 1284 MHz:   0% 1752 MHz: .58% 2004 MHz: .68% 2256 MHz:   0% 2424 MHz: .27%)
+CPU 0 idle residency:  89.80%
+CPU 1 frequency: 1104 MHz
+CPU 1 active residency:  11.90% (600 MHz: .70% 912 MHz: 9.2% 1284 MHz:   0% 1752 MHz: .08% 2004 MHz: 1.3% 2256 MHz:   0% 2424 MHz: .70%)
+CPU 1 idle residency:  88.10%
+CPU 2 frequency: 1205 MHz
+CPU 2 active residency:   4.81% (600 MHz: .29% 912 MHz: 3.3% 1284 MHz:   0% 1752 MHz: .06% 2004 MHz: .78% 2256 MHz:   0% 2424 MHz: .40%)
+CPU 2 idle residency:  95.19%
+CPU 3 frequency: 1035 MHz
+CPU 3 active residency:   6.14% (600 MHz: .42% 912 MHz: 5.1% 1284 MHz:   0% 1752 MHz: .02% 2004 MHz: .25% 2256 MHz:   0% 2424 MHz: .40%)
+CPU 3 idle residency:  93.86%
+
+P-Cluster HW active frequency: 1062 MHz
+P-Cluster HW active residency:  58.75% (660 MHz:  40% 924 MHz: .35% 1188 MHz: 1.1% 1452 MHz: .48% 1704 MHz: .33% 1968 MHz:  17% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+P-Cluster idle residency:  41.25%
+CPU 4 frequency: 1530 MHz
+CPU 4 active residency:   6.21% (660 MHz: .10% 924 MHz: .60% 1188 MHz: 1.9% 1452 MHz: .99% 1704 MHz: .01% 1968 MHz: 2.7% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 4 idle residency:  93.79%
+CPU 5 frequency: 1926 MHz
+CPU 5 active residency:   0.83% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz: .07% 1704 MHz:   0% 1968 MHz: .76% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 5 idle residency:  99.17%
+CPU 6 frequency: 1968 MHz
+CPU 6 active residency:  23.73% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz: .00% 1704 MHz:   0% 1968 MHz:  24% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 6 idle residency:  76.27%
+CPU 7 frequency: 1968 MHz
+CPU 7 active residency:   0.00% (660 MHz:   0% 924 MHz:   0% 1188 MHz:   0% 1452 MHz:   0% 1704 MHz:   0% 1968 MHz: .00% 2208 MHz:   0% 2400 MHz:   0% 2568 MHz:   0% 2724 MHz:   0% 2868 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3204 MHz:   0% 3324 MHz:   0% 3408 MHz:   0% 3504 MHz:   0%)
+CPU 7 idle residency: 100.00%
+
+CPU Power: 491 mW
+GPU Power: 16 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 507 mW
