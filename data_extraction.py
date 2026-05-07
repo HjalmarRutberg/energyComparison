@@ -42,12 +42,24 @@ def parse_powermetrics(filename, process_name):
 if __name__ == "__main__":
     measured_energy = []
     measured_time = []
-    if len(sys.argv) < 3:
-        print("Usage: python3 parse_energy.py <logfile> <process_name>")
+    if len(sys.argv) != 3:
+        print("Usage: python3 data_extraction.py <logfile> <process_name>")
     else:
+        filepath = None
+        if "python" in sys.argv[2]:
+            filepath = "results/processed/"+sys.argv[1].split(" ")[1]+"_python.txt"
+        else:
+            filepath = "results/processed/"+sys.argv[1].split("energy_")[1]+".txt"
+        summary_file = open(filepath, "w")
+        summary_file.write(f"Processing logs for process: {filepath}\n")
         for i in range(1, 6):
             j, s, elapsed_ms = parse_powermetrics(sys.argv[1]+"_run_"+str(i)+".txt", sys.argv[2])
             measured_energy.append(j)
             measured_time.append(elapsed_ms)
-    print("Mean Energy (J) of 5 runs:", mean(measured_energy))
-    print("Mean Time (ms) of 5 runs:", mean(measured_time))
+            summary_file.write(f"Run {i}: Energy = {j:.4f} J, Time = {elapsed_ms:.2f} ms\n")
+
+        summary_file.write(f"Mean Energy (J) of 5 runs: {mean(measured_energy):.4f} J\n")
+        summary_file.write(f"Mean Time (ms) of 5 runs: {mean(measured_time):.2f} ms\n")
+        print("Mean Energy (J) of 5 runs:", mean(measured_energy))
+        print("Mean Time (ms) of 5 runs:", mean(measured_time))
+        summary_file.close()
