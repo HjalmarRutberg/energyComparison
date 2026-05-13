@@ -1,0 +1,10 @@
+--- Analysis for python3.10 (50 iterations) ---
+Run 1: Total Energy = 22.8391 J, Total Time = 13380.48 ms
+Run 2: Total Energy = 22.8431 J, Total Time = 13385.48 ms
+Run 3: Total Energy = 23.2040 J, Total Time = 13378.48 ms
+Run 4: Total Energy = 22.9166 J, Total Time = 13379.17 ms
+Run 5: Total Energy = 22.6853 J, Total Time = 13376.95 ms
+Mean Energy (J) of 5 runs: 22.897617 J
+Mean Time (ms) of 5 runs: 13380.112 ms
+Energy per iteration: 0.457952 J
+Time per iteration: 267.602 ms

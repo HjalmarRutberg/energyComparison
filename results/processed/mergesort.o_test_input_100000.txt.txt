@@ -1,8 +1,0 @@
-Processing logs for process: results/processed/mergesort.o_test_input_100000.txt.txt
-Run 1: Energy = 0.0650 J, Time = 69.96 ms
-Run 2: Energy = 0.0670 J, Time = 71.22 ms
-Run 3: Energy = 0.0660 J, Time = 84.78 ms
-Run 4: Energy = 0.0570 J, Time = 85.05 ms
-Run 5: Energy = 0.0750 J, Time = 65.62 ms
-Mean Energy (J) of 5 runs: 0.0660 J
-Mean Time (ms) of 5 runs: 75.33 ms

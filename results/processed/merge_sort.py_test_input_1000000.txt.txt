@@ -1,8 +1,0 @@
-Processing logs for process: merge_sort.py_test_input_1000000.txt
-Run 1: Energy = 10.5764 J, Time = 6514.68 ms
-Run 2: Energy = 10.5270 J, Time = 6511.59 ms
-Run 3: Energy = 10.4741 J, Time = 6512.10 ms
-Run 4: Energy = 10.5513 J, Time = 6510.52 ms
-Run 5: Energy = 10.9207 J, Time = 6821.83 ms
-Mean Energy (J) of 5 runs: 10.6099 J
-Mean Time (ms) of 5 runs: 6574.14 ms

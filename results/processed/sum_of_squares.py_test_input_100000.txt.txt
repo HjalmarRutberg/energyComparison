@@ -1,8 +1,0 @@
-Processing logs for process: sum_of_squares.py_test_input_100000.txt
-Run 1: Energy = 2.3480 J, Time = 1558.49 ms
-Run 2: Energy = 2.3871 J, Time = 1564.99 ms
-Run 3: Energy = 2.3731 J, Time = 1563.52 ms
-Run 4: Energy = 2.3723 J, Time = 1558.56 ms
-Run 5: Energy = 2.4030 J, Time = 1565.18 ms
-Mean Energy (J) of 5 runs: 2.3767 J
-Mean Time (ms) of 5 runs: 1562.15 ms

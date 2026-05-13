@@ -1,0 +1,10 @@
+--- Analysis for sumofsquares.o (50 iterations) ---
+Run 1: Total Energy = 0.0410 J, Total Time = 19.74 ms
+Run 2: Total Energy = 0.0690 J, Total Time = 42.07 ms
+Run 3: Total Energy = 0.0630 J, Total Time = 22.77 ms
+Run 4: Total Energy = 0.0390 J, Total Time = 19.71 ms
+Run 5: Total Energy = 0.0340 J, Total Time = 20.60 ms
+Mean Energy (J) of 5 runs: 0.049193 J
+Mean Time (ms) of 5 runs: 24.978 ms
+Energy per iteration: 0.000984 J
+Time per iteration: 0.500 ms

@@ -1,0 +1,10 @@
+--- Analysis for mergesort.o (1 iterations) ---
+Run 1: Total Energy = 0.0650 J, Total Time = 69.96 ms
+Run 2: Total Energy = 0.0670 J, Total Time = 71.22 ms
+Run 3: Total Energy = 0.0660 J, Total Time = 84.78 ms
+Run 4: Total Energy = 0.0570 J, Total Time = 85.05 ms
+Run 5: Total Energy = 0.0750 J, Total Time = 65.62 ms
+Mean Energy (J) of 5 runs: 0.066008 J
+Mean Time (ms) of 5 runs: 75.326 ms
+Energy per iteration: 0.066008 J
+Time per iteration: 75.326 ms

@@ -1,8 +1,0 @@
-Processing logs for process: results/processed/sumofsquares.o_test_input_10000000.txt.txt
-Run 1: Energy = 4.1387 J, Time = 2801.63 ms
-Run 2: Energy = 4.1874 J, Time = 2806.09 ms
-Run 3: Energy = 4.1781 J, Time = 2802.19 ms
-Run 4: Energy = 4.2221 J, Time = 2801.85 ms
-Run 5: Energy = 4.1500 J, Time = 2799.11 ms
-Mean Energy (J) of 5 runs: 4.1753 J
-Mean Time (ms) of 5 runs: 2802.17 ms
